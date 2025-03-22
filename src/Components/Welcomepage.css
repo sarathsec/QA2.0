@@ -1,0 +1,88 @@
+.welcome-page {
+    background: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1470&aauto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-text {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #fdd835;
+    text-transform: uppercase;
+}
+
+.team-list {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);
+    width: 60%;
+    max-width: 500px;
+}
+
+.team-title {
+    color: #ffeb3b;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.team-member {
+    font-size: 18px;
+    color: white;
+    margin: 5px 0;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.category-button:hover {
+    background-color: #1565c0;
+}
+
+.subcategory-button {
+    background-color: transparent;
+    color: #ff9800;
+    border: 2px solid #ff9800;
+    padding: 10px 22px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.subcategory-button:hover {
+    background-color: #ff9800;
+    color: white;
+}
