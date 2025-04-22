@@ -1,0 +1,53 @@
+Marketing
+
+https://staffing.bposolutionsgroup.com/job-description/184c-088e-5db5
+
+SALES
+
+https://staffing.bposolutionsgroup.com/job-description/43bb959d-6488-44dc-b5a6-6cf547403ea2
+
+https://staffing.bposolutionsgroup.com/job-description/431a-ccd2-bec4
+
+https://staffing.bposolutionsgroup.com/job-description/f4fd-fc21-7d1d
+
+ENGINEERING
+
+https://staffing.bposolutionsgroup.com/job-description/ef39-4d7d-c14b
+
+https://staffing.bposolutionsgroup.com/job-description/5cff-6f96-a304
+
+https://staffing.bposolutionsgroup.com/job-description/67ac-dc23-7c99
+
+Business
+
+https://staffing.bposolutionsgroup.com/job-description/6248-2cba-8eaa
+
+Data encryption
+---------------
+user id - encryption
+password - encryption
+is passowrd visible or not before encryption
+Password encrption at DB level
+user id + password combination is storing in DB tables as user information or not.
+
+Login - encryption
+
+
+Now in welcome.js file some code is there which is showing basic welcome page with heading but i want to change that everything with below scenario
+
+what i am expecting starting from the first page in my website
+
+HEADING : QUALITY AT IT'S BEST THROUGH THE LENS OF EFICAA'S QA TEAM.
+ Then different buttons showing our 
+ application wings 
+		HES,
+		MDMS
+		Mobile
+			mobile asset survey app
+			consumer app
+		API 
+			WEB API
+			MOBILE API
+ now the test cases will be segregated by this different categories according to the above.
+ give me provision for using some good wallpaper background, later i will use that in the code.
+ 

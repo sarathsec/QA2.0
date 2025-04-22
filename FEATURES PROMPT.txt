@@ -1,0 +1,61 @@
+
+Feature 1: Directly write test cases in the front end
+i want to write testcases directly in my website which will add to the backend mongodb.
+for that the fields should be displayed in beautiful forms like a way.
+  testCaseID
+  ModuleName	
+  testCaseName	
+  testCaseType	
+  Priority	
+  testcaseDescription	
+  testSteps	--------> multiple steps will come. need to handle this properly in the UI/UX
+  testData	
+  expectedResult	
+  actualResult	
+  Testcasestatus	
+  screenshot
+  
+  
+Feature 2:
+----------
+My welcome page contains these buttons
+HES 
+MDMS 
+MOBILE 
+APi
+MOBILE ASSET SURVEY
+CONSUMER APP
+WEB API
+MOBILE APi
+
+so when i clicked on those they should open a new page internally
+where i will add new features inside those pages
+HES 
+	TMMS
+		DTR COMMUNICATION
+		SETTINGS
+	METER
+		METER COMMUNICATION
+		SETTINGS
+	AMS
+		DTR LIST
+		TMU LIST
+		METER LIST
+		SIM LIST
+		NOP
+		MANUFACTURER LIST
+	HIERARCHY
+		FEEDER LIST
+		HIERARCHY LIST
+	CIS
+		CONSUMER LIST
+		SERVICE CONNECTION LIST
+	USER
+		USER DETAILS LIST
+		ASSIGNING ROLES
+	GIS
+		GIS ADMIN
+	SCHEDULER
+	
+for now when clicked on HES then these tabs should open and then create new page for each internal tabs so that 
+i will add the test case directly there in that page only.
