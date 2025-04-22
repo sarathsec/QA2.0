@@ -1,0 +1,216 @@
+.hes-container {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.hes-header {
+    margin-bottom: 2rem;
+    color: #1976d2;
+    text-align: center;
+    animation: fadeInDown 0.5s ease-out;
+}
+
+.module-card {
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.module-title {
+    color: #1976d2;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 1rem;
+}
+
+.submodule-button {
+    margin: 0.5rem 0;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    text-transform: none;
+    font-weight: 500;
+}
+
+.submodule-button:hover {
+    background-color: rgba(25, 118, 210, 0.08);
+    transform: translateX(5px);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .hes-container {
+        padding: 1rem;
+    }
+
+    .module-card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Loading State */
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+/* Module Card Hover Effects */
+.module-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent, rgba(25, 118, 210, 0.05), transparent);
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+}
+
+.module-card:hover::after {
+    transform: translateX(100%);
+}
+
+/* Search Bar */
+.MuiTextField-root {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Dialog Styles */
+.MuiDialog-paper {
+    border-radius: 12px !important;
+    padding: 1rem;
+}
+
+.MuiDialogTitle-root {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 1rem;
+}
+
+.MuiListItem-root {
+    padding: 0.5rem 0;
+}
+
+/* Status Chips */
+.MuiChip-root {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Add Module Button */
+.add-module-button {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    border-radius: 50% !important;
+    min-width: 50px !important;
+    height: 50px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    transition: all 0.3s ease !important;
+}
+
+.add-module-button:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Module Details Dialog */
+.module-details-list {
+    padding: 1rem;
+}
+
+.module-details-list .MuiListItem-root {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.module-details-list .MuiListItem-root:last-child {
+    border-bottom: none;
+}
+
+/* Delete Dialog */
+.delete-dialog .MuiDialogContent-root {
+    padding: 1rem 2rem !important;
+}
+
+.delete-dialog .MuiDialogActions-root {
+    padding: 1rem 2rem !important;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Status Icons */
+.status-icon {
+    margin-right: 0.5rem;
+}
+
+/* Version Info */
+.version-info {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* Submodule Grid */
+.submodule-grid {
+    margin-top: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 960px) {
+    .module-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .add-module-button {
+        bottom: 15px !important;
+        right: 15px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .hes-container {
+        padding: 0.5rem;
+    }
+
+    .module-card {
+        margin-bottom: 1rem;
+    }
+
+    .add-module-button {
+        bottom: 10px !important;
+        right: 10px !important;
+    }
+}
